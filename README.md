@@ -7,5 +7,5 @@ docker build -t <DOCKER_IMAGE_TAG> .
 
 ````
 docker run --rm --name python-app \
-      -p 80:8080 \
+      -p 8080:8080 \
       -d <DOCKER_IMAGE_TAG>
